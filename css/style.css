@@ -663,4 +663,25 @@
     border: 0;
 }
 
+.container.pt-5.pb-4 {
+    padding-top: 1.5rem; /* Reduced from 3rem */
+    padding-bottom: 1rem; /* Reduced from 2rem */
+}
+.col-lg-3.col-md-6 img {
+    max-height: 50px;
+}
+.col-lg-3.col-md-6 p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+.hightech-link a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1rem;
+}
+.hightech-link {
+    margin-top: 0.5rem;
+}
 /*** Footer End ***/
