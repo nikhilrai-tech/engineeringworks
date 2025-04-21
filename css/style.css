@@ -89,7 +89,7 @@
 #note small {
     position: relative;
     display: inline-block;
-    animation: mymove 5s infinite;
+    animation: mymove 12s infinite;
     animation-timing-function: all;
 }
 
@@ -298,8 +298,13 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../img/1.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.page-header img {
+    max-height: 600px;
+    width: 100%;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -667,21 +672,5 @@
     padding-top: 1.5rem; /* Reduced from 3rem */
     padding-bottom: 1rem; /* Reduced from 2rem */
 }
-.col-lg-3.col-md-6 img {
-    max-height: 50px;
-}
-.col-lg-3.col-md-6 p {
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    line-height: 1.4;
-}
-.hightech-link a {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-size: 1rem;
-}
-.hightech-link {
-    margin-top: 0.5rem;
-}
+
 /*** Footer End ***/
